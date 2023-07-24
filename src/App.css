@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+/* In your CSS file or style block */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country-card {
+  width: 18rem;
+  margin: 10px;
+}
