@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![image](https://github.com/mantejohannes/Country-Search-APP/assets/125446000/260bb852-2b19-4cf5-a0c8-91c6cacc9062)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
