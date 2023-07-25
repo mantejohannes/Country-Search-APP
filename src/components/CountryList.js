@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link, useHistory } from 'react-router-dom';
 import { MDBCard, MDBCardBody, MDBCardImage, MDBCardText, MDBCardTitle, MDBBtn } from 'mdb-react-ui-kit';
-import '../components/styling.css'; // Import the CSS file
+import '../components/styling.css'; 
 
 const CountryList = () => {
   const [countries, setCountries] = useState([]);
