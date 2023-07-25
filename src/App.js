@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CountryList from './components/CountryList';
 import CountryDetail from './components/CountryDetail';
