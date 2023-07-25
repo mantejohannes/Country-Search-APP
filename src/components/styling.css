@@ -108,3 +108,27 @@
   padding: 2px 10px;
   margin-right: 5px; /* Add some space between border countries */
 }
+
+
+
+.back-button{
+  margin-left: 60px;
+  margin-bottom: 60px;
+  width: 130px;
+}
+
+.search{
+  margin-left: 153px;
+  padding: 8px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.linking{
+  background-color: #ccc;
+}
+
+.font-link{
+  color: white;
+
+}

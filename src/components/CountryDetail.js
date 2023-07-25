@@ -1,12 +1,13 @@
 // components/CountryDetail.js
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams,useHistory } from 'react-router-dom';
 import axios from 'axios';
 
 const CountryDetail = () => {
   const { countryCode } = useParams();
   const [countryData, setCountryData] = useState(null);
-  
+  const history = useHistory();
+
   
 
   useEffect(() => {
@@ -24,8 +25,15 @@ const CountryDetail = () => {
     return <div>Loading...</div>;
   }
 
+  const handleGoBack = () => {
+    history.goBack();
+  };
+
   return (
     <div className='container-details'>
+            
+            <button className="back-button" onClick={handleGoBack}>Back</button>
+
     <div className="container d-flex align-items-center justify-content-center">
         <div className="card shadow" style={{ width: '1500px' }}>
         <div className="row no-gutters">

@@ -35,12 +35,13 @@ const CountryList = () => {
 
   return (
     <div>
-      <h1>Country List</h1>
+      <h4>Where in the world</h4>
       <div>
         <input
           type="text"
           placeholder="Search for a country"
           onChange={e => handleSearch(e.target.value)}
+          className='search'
         />
       </div>
       <div className="card-container">
@@ -64,9 +65,9 @@ const CountryList = () => {
                 <br />
                 Capital: {country.capital}
               </MDBCardText>
-              <MDBBtn>
-                <Link to={`/country/${country.cca3}`} onClick={() => handleCountryClick(country.cca3)}>
-                  Learn More
+              <MDBBtn className="linking">
+                <Link className="font-link"  to={`/country/${country.cca3}`} onClick={() => handleCountryClick(country.cca3)}>
+                  See More Info
                 </Link>
               </MDBBtn>
             </MDBCardBody>
